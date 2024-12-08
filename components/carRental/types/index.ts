@@ -4,7 +4,8 @@ export interface LocationSectionProps {
   dotColor: string;
 }
 
-export interface LocationInputProps {
+export type LocationInputProps = {
   label: string;
-  placeholder: string;
-}
+  value: string;
+  onChange: (value: string) => void;
+};
