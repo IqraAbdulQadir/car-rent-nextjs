@@ -1,5 +1,5 @@
 import * as React from "react";
-import { LocationInputProps } from "../types";
+import { LocationInputProps } from "@/components/carRental/types/index";
 
 export const LocationInput: React.FC<LocationInputProps> = ({
   label,

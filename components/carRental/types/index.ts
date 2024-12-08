@@ -6,6 +6,6 @@ export interface LocationSectionProps {
 
 export type LocationInputProps = {
   label: string;
-  value: string;
+  placeholder: string;
   onChange: (value: string) => void;
 };
